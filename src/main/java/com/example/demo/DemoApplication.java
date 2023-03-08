@@ -24,4 +24,10 @@ public class DemoApplication {
     String sayHelloandHi() {
         return "Its calling the Hi & Hello world Together !";
     }
+
+	@GetMapping("/getone")
+	public @ResponseBody ResponseEntity<String> get() {
+    return new ResponseEntity<String>("GET Response", HttpStatus.OK);
+	}
+
 }
