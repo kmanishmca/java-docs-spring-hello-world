@@ -20,11 +20,11 @@ public class DemoApplication {
 
 	@RequestMapping("/")
 	String sayHello() {
-		return "Hello World!";
+		return "Hello World with Love!";
 	}
 
 	@RequestMapping("/hello")
-    String sayHelloandHi() {
+    String testOne() {
         return "Its calling the Hi & Hello world Together !";
     }
 
