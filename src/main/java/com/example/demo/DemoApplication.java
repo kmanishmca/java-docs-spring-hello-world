@@ -23,7 +23,7 @@ public class DemoApplication {
 		return "Hello World!";
 	}
 
-	@PostMapping("/hello")
+	@RequestMapping("/hello")
     String sayHelloandHi() {
         return "Its calling the Hi & Hello world Together !";
     }
