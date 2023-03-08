@@ -19,7 +19,7 @@ public class DemoApplication {
 	}
 
 	@RequestMapping("/sayhi")
-	String sayHello() {
+	String sayHelloandHi() {
 		return "Its calling the Hi & Hello world Together !";
 	}
 }
