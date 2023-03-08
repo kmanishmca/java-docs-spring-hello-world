@@ -20,7 +20,7 @@ public class DemoApplication {
 
 	@RequestMapping("/")
 	String sayHello() {
-		return "Hello World with Love!";
+		return "Hello World with Love Test!";
 	}
 
 	@RequestMapping("/hello")
