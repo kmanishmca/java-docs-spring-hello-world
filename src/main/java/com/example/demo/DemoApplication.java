@@ -20,12 +20,12 @@ public class DemoApplication {
 
 	@RequestMapping("/")
 	String sayHello() {
-		return "Hello World with Love Test!";
+		return "Hello World with Love Test and test!";
 	}
 
 	@RequestMapping("/hello")
     String testOne() {
-        return "Its calling the Hi & Hello world Together !";
+        return "Its calling the Hi & Hello world Together  and test!";
     }
 
 	@GetMapping("/getone")
