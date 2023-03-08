@@ -30,12 +30,12 @@ public class DemoApplication {
 
 	@GetMapping("/getone")
 	public @ResponseBody ResponseEntity<String> get() {
-    return new ResponseEntity<String>("GET Response", HttpStatus.OK);
+    return new ResponseEntity<String>("GET Response New", HttpStatus.OK);
 	}
 
 	@PostMapping("/testtwo")
     public @ResponseBody ResponseEntity<String> posttwo() {
-            return new ResponseEntity<String>("POST Response", HttpStatus.OK);
+            return new ResponseEntity<String>("POST Response New", HttpStatus.OK);
     }
 
 }
