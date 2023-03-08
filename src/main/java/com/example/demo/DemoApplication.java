@@ -5,6 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 
 @SpringBootApplication
 @RestController
@@ -19,8 +20,8 @@ public class DemoApplication {
 		return "Hello World!";
 	}
 
-	@GetMapping("/sayhi")
-	String sayHelloandHi() {
-		return "Its calling the Hi & Hello world Together !";
-	}
+	@PostMapping("/hello")
+    String sayHelloandHi() {
+        return "Its calling the Hi & Hello world Together !";
+    }
 }
