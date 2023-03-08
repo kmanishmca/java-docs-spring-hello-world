@@ -33,4 +33,9 @@ public class DemoApplication {
     return new ResponseEntity<String>("GET Response", HttpStatus.OK);
 	}
 
+	@PostMapping("/testtwo")
+    public @ResponseBody ResponseEntity<String> posttwo() {
+            return new ResponseEntity<String>("POST Response", HttpStatus.OK);
+    }
+
 }
